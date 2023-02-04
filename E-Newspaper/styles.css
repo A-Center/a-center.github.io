@@ -1,0 +1,48 @@
+body{
+    background-color: #fbd5a6;
+    padding: 5%;
+}
+img{
+    filter: grayscale();
+    box-shadow: 1% 1% grey ;
+}
+p,h1,h2,h3,h4,h5,h6{
+    color: rgb(71, 30, 0);
+}
+.new_cafe{
+    margin-top: 1%;
+    height: 25%;
+    width: 25%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+   
+}
+.image{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 1%;
+}
+.hall{
+    height: 50%;
+    width: 50%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.a{
+    display: block;
+    margin-top: 10%;
+}
+a{
+    color: black;
+   
+    text-decoration: none;
+    text-decoration: dotted;
+}
+.b{
+    width: 60%;
+    height: 60%;
+}
+.c{
+    width: 40%;
+    height: 40%; 
+}

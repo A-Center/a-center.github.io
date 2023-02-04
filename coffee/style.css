@@ -1,0 +1,31 @@
+.img{
+    height: 2cm;
+    width: 2cm;
+    margin: 10px auto;
+
+    
+
+}
+.a{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+    
+ hr { background-color:chocolate; height: 3px; border: 0; }
+ p{
+     text-align: center;
+     
+ }
+ .small{
+     font-size: x-small;
+ }
+ .coffee{
+     width: 50%;
+ }
+ cursor{
+    color: brown;
+    border: 20px;
+    background-color: brown;
+    box-shadow: 10px 10px black;
+ }

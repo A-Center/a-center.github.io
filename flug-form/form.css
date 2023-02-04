@@ -1,0 +1,44 @@
+input{
+    border: 2px solid rgb(234, 255, 0);
+   
+}
+input :focus {
+   
+    border-radius: 0%;
+  
+}
+.div{
+    background-color: rgb(83, 97, 0);
+    color: rgb(255, 0, 89);
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+
+}
+img{
+    width: 50%;
+    height: 50%;
+
+}
+#submit{
+    
+    border-radius: 0%;
+    margin-top: 5%;
+    
+    
+}
+.A{
+    box-shadow: 5px 5px 5px rgb(255, 0, 85);
+    width: max-content;
+    margin-bottom: 5px;
+    
+}
+.b{
+    
+    box-shadow: 5px 5px 5px rgb(255, 0, 85);
+    width: max-content;
+    margin-bottom: 5px;
+}
+input:focus{
+    color-scheme: dark;
+}
