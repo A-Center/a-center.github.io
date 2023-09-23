@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="Styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <script src="../Recipies.js"></script>
+</head>
 
-    <body>
-        <div>
-            <h1 class="Name">Блины на кефире</h1>
-        </div>
-            
-            
-            
-        </div>
-        <img class="img" src="20211020_184940.jpg" alt="">
+<body>
+    <div>
+        <h1 class="Name">Блины на кефире</h1>
+    </div>
 
-        <pre><p class="Ingredients">
-            На 10 блинов:
 
-            Яйца - 2 шт.
-            Мука - 120 г
-            Кефир - 200 г
-            Кипяток - 200 г
-            Сахар - 35 г
-            Растительное масло - 30 г
-            Соль - 1/2 ложки
-            Сода - 1/4 ложки
 
-            Все ингредиенты теплые
-        </p>
-        </pre>
-        
-            <ul class="make">
-                <li>Яйца, сахар и соль взбиваем.</li>
-                <li>Добавляем кефир и перемешиваем.</li>
-                <li>Кипяток тонкой струйкой, постоянно помешивая или взбивая.</li>
-                <li>Просеиваем муку и перемешиваем.</li>
-                <li>Добавляем соду.</li>
-                <li>Добавляем масло.</li>
-                <li>Оставляем на 30 минут при комнатной температуре.</li>
-            </ul>
-        
+    </div>
+    <img class="img" src="20211020_184940.jpg" alt="">
 
-    </body>
+    <select id="change_chart" onChange="generateData(this.value)">
+        <option value="1" selected>1 portion</option>
+        <option value="2">2 portions</option>
+        <option value="3">3 portions</option>
+    </select>
+
+    <ul class="Ingredients">
+        <li>На <span class="number" originalNumber="10">10</span> блинов:</li>
+
+        <li>Яйца - <span class="number" originalNumber="2">2</span> шт.</li>
+        <li>Мука - <span class="number" originalNumber="120">120</span> г</li>
+        <li>Кефир - <span class="number" originalNumber="200">200</span> г</li>
+        <li>Кипяток - <span class="number" originalNumber="200">200</span> г</li>
+        <li>Сахар - <span class="number" originalNumber="35">35</span> г</li>
+        <li>Растительное масло - <span class="number" originalNumber="30">30</span> г</li>
+        <li>Соль - <span class="number" originalNumber="0.5">0.5</span> ч.л.</li>
+        <li>Сода - <span class="number" originalNumber="0.25">0.25</span> ч.л.</li>
+
+        Все ингредиенты теплые
+    </ul>
+
+
+    <ul class="make">
+        <li>Яйца, сахар и соль взбиваем.</li>
+        <li>Добавляем кефир и перемешиваем.</li>
+        <li>Кипяток тонкой струйкой, постоянно помешивая или взбивая.</li>
+        <li>Просеиваем муку и перемешиваем.</li>
+        <li>Добавляем соду.</li>
+        <li>Добавляем масло.</li>
+        <li>Оставляем на 30 минут при комнатной температуре.</li>
+    </ul>
+
+
+</body>
 
 </html>
